@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <style>
+        .signup {
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    border-radius: 50px;
+    background-color: white;
+    text-align: center;
+    margin-top: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    padding-top: 10px;
+    box-shadow: 10px;
+}
+body {
+    background-color: blueviolet;
+}
+.p1 {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 9px;
+    padding: 10px;
+}
+button {                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 30px; 
+    padding-top: 10px;
+    width: 50%;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button:hover {
+    background-color: rebeccapurple;
+}
+form input {
+    width: 70%;
+    padding: 7px;
+    border: none;  
+    border: 2px solid black;
+    border-radius: 6px;
+    height: .4cm;
+}
+::placeholder { 
+    font-family: cursive;
+    color: gray;
+    font-size: 15px;
+}
+form input:hover  {
+    border:2px solid blueviolet;
+    outline: none;
+}
+    </style>
+</head>
+
+
+<body> 
+    <div class="signup">
+        <em><h1>Sign Up!</h1></em>
+        <em><h4>Create an account to get started</h4></em>
+
+        <form>
+        <label for="First name"></label>
+        <input type="text" placeholder="First name">
+        <label for="Last name"></label>
+        <input type="text" placeholder="Last Name">
+        <label for="Email"></label>
+        <input type="text" placeholder="Email Address">
+        <label for="Password"></label>
+        <input type="text" placeholder="Password">
+        </form>
+        <button>Submit</button>
+        <p class="p1">Already have an account? <a href="about.html">Sign in</a></p>
+    </div> 
+</body>
+</html>
